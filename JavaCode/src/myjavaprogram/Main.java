@@ -17,8 +17,8 @@ public class Main {
 
 
 	public static boolean isMapping(String str1, String str2) {
-//		if(str1.length()==0 || str1==null)
-//			return false;
+		if(str1.length()==0 || str1==null)
+			return false;
 			
 		if(str1.length()!=str2.length())
 			return false;	
